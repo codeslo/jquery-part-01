@@ -73,7 +73,8 @@ label{
     width:100%;
     text-align:center;
 }
-.submit-button{
+
+#submit-button{
     background-color: #1993DA;
     color:white;
     height:7%;
@@ -82,5 +83,10 @@ label{
     font-size:18px;
     border-radius:10px;
     
+}
+
+.validated::placeholder{
+    color: red;
+    font-style:italic;
 }
 
