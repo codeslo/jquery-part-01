@@ -1,25 +1,27 @@
 
-<form action="#" onsubmit="simulateAjax(this)">
-    <section id="text-inputs" class="input_section">
-        <ul class="text-inputs-list">
-            <label for="first_name">First Name:</label>
-            <li><input type="text" id="first_name" name="firstName"></li>
-            <label for="last_name">Last Name:</label>
-            <li><input type="text" id="last_name" name="lastName"></li>
-            <label for="user_email">Email:</label>
-            <li><input type="email" id="user_email" name="userEmail"></li>
-            <label for="phone_number">Phone Number:</label>
-            <li><input type="text" id="phone_number" name="phoneNumber"></li>
-            <label for="message">Message (optional)</label>
-            <li><textarea id="message" name="message"></textarea></li>
-        </ul>
-    </section>
-    <section id="rsvp-boxes" class="checkbox-section">
-        <ul class = "checkbox-list">
-            <label for="rsvp-yes">Yes, I'm coming!</label>
-            <li><input type="checkbox" id="rsvp-yes" class="checkbox" name="rsvp-yes"></li>
-            <label for="rsvp-no">No, I can't make it.</label>
-            <li><input type="checkbox" id="rsvp-no" class="checkbox" name="rsvp-no"></li>
-        </ul>
-    </section>
-</form>
+<form action="#" onsubmit="simulateAjax(this)" class="guest-form">
+        <section id="text-inputs" class="input_section">
+            <ul class="text-inputs-list">
+                <label for="first_name">First Name:</label>
+                <li><input type="text" id="first_name" name="firstName"></li><br>
+                <label for="last_name">Last Name:</label>
+                <li><input type="text" id="last_name" name="lastName"></li><br>
+                <label for="user_email">Email:</label>
+                <li><input type="email" id="user_email" name="userEmail"></li><br>
+                <label for="phone_number">Phone Number:</label>
+                <li><input type="text" id="phone_number" name="phoneNumber"></li><br>
+                <label for="message">Message (optional)</label>
+                <li><textarea id="message" name="message"></textarea></li><br>
+            </ul>
+        </section>
+        <section id="rsvp-boxes" class="checkbox-section">
+            <ul class = "checkbox-list">
+                <li><input type="checkbox" id="rsvp-yes" class="checkbox" name="rsvp-yes"></li>
+                <label for="rsvp-yes">Yes, I'm coming!</label>
+
+                <li><input type="checkbox" id="rsvp-no" class="checkbox" name="rsvp-no"></li>
+                <label for="rsvp-no">No, I can't make it.</label>
+                
+            </ul>
+        </section>
+    </form>
