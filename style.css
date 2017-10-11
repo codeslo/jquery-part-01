@@ -4,6 +4,10 @@ html,body{
     background-color:#1993DA;
 }
 
+.container{
+    width:95%;
+}
+
 label{
     font-size:24px;
     color:black;
@@ -12,10 +16,12 @@ label{
 
 .guest-form{
     width:600px;
+    height:75%;
+    overflow:hidden;
     text-align:right;
     border:2px solid gray;
-    padding:25px 100px 25px 25px;
-    margin:50px auto 0 auto;
+    padding:10px;
+    margin:2% auto 2% auto;
     background-color:white;
 }
 
@@ -28,17 +34,22 @@ label{
 }
 
 .text-inputs-list input{
-    height:40px;
+    height:5%;
     width:300px;
     font-size:18px;
     padding-left:10px;
 }
 
 .text-inputs-list textarea{
-    height:200px;
+    height:150px;
     width:300px;
     font-size:18px;
     padding:5px;
+}
+
+.checkbox-section{
+    text-align:center;
+    width:100%;
 }
 
 .checkbox{
@@ -56,5 +67,20 @@ label{
 
 #message{
     vertical-align: top;
+}
+
+.button_section{
+    width:100%;
+    text-align:center;
+}
+.submit-button{
+    background-color: #1993DA;
+    color:white;
+    height:7%;
+    width:75px;
+    padding:5px;
+    font-size:18px;
+    border-radius:10px;
+    
 }
 
